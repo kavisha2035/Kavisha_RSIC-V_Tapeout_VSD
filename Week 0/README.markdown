@@ -1,6 +1,8 @@
 # 🚀 Week 0: VLSI System Design (VSD) Program Foundation & Tool Setup
 
-![VLSI](https://img.shields.io/badge/VLSI-System-blue)![System Design](https://img.shields.io/badge/System-Design-darkblue)![Week 0](https://img.shields.io/badge/Week-0-orange)![Status](https://img.shields.io/badge/Status-Complete-brightgreen)Welcome to my **VLSI System Design (VSD) Program** repository! This week focuses on **setting up the development environment** and installing essential open-source tools for synthesis, simulation, and layout design.
+![VLSI](https://img.shields.io/badge/VLSI-System-blue)  ![System Design](https://img.shields.io/badge/System-Design-darkblue)  ![Week 0](https://img.shields.io/badge/Week-0-orange)  ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+---
+Welcome to my **VLSI System Design (VSD) Program** repository! This week focuses on **setting up the development environment** and installing essential open-source tools for synthesis, simulation, and layout design.
 
 ---
 
@@ -46,7 +48,7 @@ sudo make install
 ```bash
 yosys
 ```
-
+![Alt text](yosys.png)
 ### 📟 2. Icarus Verilog
 
 **Installation:**
@@ -61,7 +63,7 @@ sudo apt install iverilog -y
 ```bash
 iverilog -V
 ```
-
+![Alt text](iverilog.png)
 ### 📊 3. GTKWave
 
 **Installation:**
@@ -76,7 +78,7 @@ sudo apt install gtkwave -y
 ```bash
 gtkwave --version
 ```
-
+![Alt text](gtkwave_1.png)
 ### ⚡ 4. Ngspice
 
 **Installation:**
@@ -91,7 +93,7 @@ sudo apt install ngspice -y
 ```bash
 ngspice -v
 ```
-
+![Alt text](ngspice.png)
 ### 🎨 5. Magic VLSI
 
 **Installation:**
@@ -114,7 +116,7 @@ magic
 ```
 
 ---
-
+![Alt text](tkcon.png)
 ## ✅ Summary of Installed Tools
 
 | Tool | Status | Purpose |
